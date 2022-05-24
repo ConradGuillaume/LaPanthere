@@ -17,7 +17,12 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
+#logo {
+  width: 20%;
+}
+#panthere {
+  width: 100%;
+}
 #page-loading-blocs-notifaction {
   position: fixed;
   top: 0;
@@ -197,7 +202,7 @@ a:hover {
 .l-bloc {
   color: rgba(0, 0, 0, 0.5);
 }
-#p-1{
+#p-1 {
   font-size: 19px;
   font-family: "helvetica";
   color: #000000;
@@ -767,24 +772,24 @@ h3 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #F3976C;
+  background-color: #f3976c;
 }
 
 .tc-white {
   color: #ff5e00;
   font-size: 20px;
 }
-#change{
-    color: #000000;
+#change {
+  color: #000000;
 }
 
-#bright{
+#bright {
   filter: brightness(3);
   color: #ffffff !important;
   font-weight: bold;
 }
 .btn-atomic-tangerine {
-  background: #F3976C;
+  background: #f3976c;
   color: #000000 !important;
 }
 
