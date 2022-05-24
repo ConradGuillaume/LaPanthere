@@ -197,7 +197,11 @@ a:hover {
 .l-bloc {
   color: rgba(0, 0, 0, 0.5);
 }
-
+#p-1{
+  font-size: 19px;
+  font-family: "helvetica";
+  color: #616161;
+}
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
   color: rgba(0, 0, 0, 0.7);
@@ -768,10 +772,12 @@ h3 {
 #change{
     color: #000000;
 }
-.tc-black {
-  color: #ffffff;
-}
 
+#bright{
+  filter: brightness(3);
+  color: #ffffff !important;
+  font-weight: bold;
+}
 .btn-atomic-tangerine {
   background: #F3976C;
   color: #000000 !important;
