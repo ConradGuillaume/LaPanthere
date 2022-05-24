@@ -200,7 +200,7 @@ a:hover {
 #p-1{
   font-size: 19px;
   font-family: "helvetica";
-  color: #616161;
+  color: #000000;
 }
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -681,6 +681,7 @@ a {
 
 p {
   font-size: 11px;
+  color: #000000;
 }
 
 .tight-width-whitespace {
