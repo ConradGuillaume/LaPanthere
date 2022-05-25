@@ -521,6 +521,7 @@ button {
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
+  resize: none;
 }
 
 .scrollToTop {
@@ -690,8 +691,11 @@ a {
 p {
   font-size: 14px;
   color: #000000;
+  
 }
-
+.col-sm-6{
+  float: none;
+}
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto auto auto auto;
