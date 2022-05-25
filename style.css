@@ -24,6 +24,7 @@ a:hover {
 #panthere {
   width: 100%;
 }
+
 #page-loading-blocs-notifaction {
   position: fixed;
   top: 0;
@@ -691,9 +692,8 @@ a {
 p {
   font-size: 14px;
   color: #000000;
-  
 }
-.col-sm-6{
+.col-sm-6 {
   float: none;
 }
 .tight-width-whitespace {
