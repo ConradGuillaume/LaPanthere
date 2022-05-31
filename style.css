@@ -756,6 +756,7 @@ h3 {
 .portfolio-row {
   margin-bottom: 44px;
   margin-top: 50px;
+  display: flex;
 }
 
 .avatar {
@@ -991,6 +992,9 @@ h3 {
   .bloc {
     padding-left: 0;
     padding-right: 0;
+  }
+  .portfolio-row {
+    display: block;
   }
   .bloc-xxl,
   .bloc-xl,
