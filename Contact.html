@@ -33,7 +33,7 @@
       defer
       src="https://www.googletagmanager.com/gtag/js?id=G-E15W81YSSN"
     ></script>
-    <script async>
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -89,12 +89,16 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center hero-bloc-text tc-white" id="change">
+              <h1
+                class="text-center hero-bloc-text tc-white"
+                id="change"
+                style="color: black"
+              >
                 Parlons web design !
               </h1>
               <p
                 class="text-center mg-lg tc-white tight-width-whitespace"
-                id="change"
+                style="color: black"
               >
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
                 agence.<br />
@@ -115,8 +119,8 @@
               <form
                 id="form_1"
                 novalidate
-                success-msg="Your message has been sent."
-                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+                data-success-msg="Your message has been sent."
+                data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
                   <label for="name"> Nom </label>
